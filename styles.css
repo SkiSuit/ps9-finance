@@ -1,0 +1,170 @@
+/* Size for brand */
+nav .navbar-brand
+{
+    font-size: xx-large;
+}
+
+/* Colors for brand */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+nav .navbar-brand .red
+{
+    color: #661403;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #2e944b;
+}
+
+body
+{
+    min-width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+    color:white;
+    font-family:monospace;
+    font-size:20px;
+
+    padding-left:30px;
+}
+
+.backgrounds
+{
+    background-color: #202020;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(15px);
+
+}
+
+
+
+.content {
+
+    border-collapse:collapse;
+    min-width:600px;
+    width:97%;
+    margin: 25px 0;
+    font-size: 25px;
+    border-radius:5px;
+    overflow:hidden;
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+
+
+}
+
+content th,td{
+    width: 100%;
+    padding: 30px;
+    text-align:center;
+}
+
+.content thead tr {
+    background-color:#420d02;
+    color:white;
+    font-weight:bold;
+    text-align:center;
+    padding:20px;
+    width: 100px;
+
+
+}
+
+.content tbody tr {
+    border-bottom: 2px solid #bac2bc;
+
+}
+.content tbody tr:last-of-type {
+    border-bottom: 8px solid #420d02;
+
+}
+
+
+
+
+
+
+
+
+.content1 {
+
+    border-collapse:collapse;
+    min-width:600px;
+    width:97%;
+    font-size: 20px;
+    border-radius:5px;
+    overflow:hidden;
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+
+
+
+}
+
+.content1 thead tr {
+    background-color:#420d02;
+    color:white;
+    font-weight:bold;
+    text-align:center;
+    padding:20px 20px;
+
+
+}
+
+.content1 tbody tr {
+    border-bottom: 2px solid #bac2bc;
+
+}
+.content1 tbody tr:last-of-type {
+    border-bottom: 8px solid #420d02;
+
+}
+
+nav ul li {display: inline-block;}
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 20px 30px;
+    text-decoration: none;
+  }
+
+  nav ul li + li {margin-left: 20px;}
+
+.pill-1 .nav-link {
+    background-color: #420d02;
+    color: white;
+    border-radius: 15px;
+}
+.pill-2 .nav-link {
+    background-color: #420d02;
+    color: white;
+    border-radius: 15px;
+    margin-right:20px;
+}
+
+
+.for-pass {
+    width:100%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    font-size:25px;
+    margin-top:2px;
+}

@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Register
+{% endblock %}
+
+{% block main %}
+    <form action="/register" method="post">
+        <div class="mb-3">
+            <input autocomplete="off" autofocus class="form-control mx-auto w-auto" name="username" placeholder="Enter New Username" type="text" style="width:25%; height:auto; text-align:center; font-size:51px; border-radius:20px; margin-top:15px;">
+        </div>
+        <div class="mb-3">
+            <input class="form-control mx-auto w-auto" name="password" placeholder="Enter unique Password" type="password" style="width:25%; height:auto; text-align:center; font-size:51px; border-radius:20px; margin-top:15px;">
+        </div>
+        <div class="mb-3">
+            <input class="form-control mx-auto w-auto" name="confirmation" placeholder="Enter Password again" type="password" style="width:25%; height:auto; text-align:center; font-size:51px; border-radius:20px; margin-top:15px;">
+        </div>
+        <h6 class="for-pass"> Password must Contain at Least 1 number</h6>
+        <h6 class="for-pass"> Password must Contain at least 1 capital letter</h6>
+        <h6 class="for-pass"> Password must be at least 6 characters long</h6>
+
+        <button class="btn" type="submit" style="margin-bottom:15px; text-align:center; font-size:60px; font-style:italic; background-color:#420d02; color:white; border-radius:20px;">Register</button>
+    </form>
+{% endblock %}

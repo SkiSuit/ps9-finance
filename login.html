@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Log In
+{% endblock %}
+
+{% block main %}
+    <form action="/login" method="post">
+        <div class="mb-3">
+            <input autocomplete="off" autofocus class="form-control mx-auto w-auto" name="username" placeholder="Username" type="text" style="width:25%; height:auto; text-align:center; font-size:51px; border-radius:20px; margin-top:15px;">
+        </div>
+        <div class="mb-3">
+            <input class="form-control mx-auto w-auto" name="password" placeholder="Password" type="password" style="width:25%; height:auto; text-align:center; font-size:51px; border-radius:20px; margin-top:15px;">
+        </div>
+        <button class="btn" type="submit" style="margin-bottom:15px; text-align:center; font-size:60px; font-style:italic; background-color:#420d02; color:white; border-radius:20px;">Log In</button >
+    </form>
+{% endblock %}
